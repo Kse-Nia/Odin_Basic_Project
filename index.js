@@ -3,7 +3,7 @@ const res = require("express/lib/response");
 const app = express();
 require('dotenv').config();
 const http = require("http");
-const port = process.env.PORT;
+const port = 8080;
 
 const server = http.createServer(function (req, res) {
     res.writeHead(200, {
